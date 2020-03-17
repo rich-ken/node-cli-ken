@@ -5,7 +5,12 @@
   "main": "bin/main.js",
   "author": "Ken <2770219+ken0x0a@users.noreply.github.com>",
   "license": "MIT",
+  "bin": {
+    "ken": "./bin/main.js"
+  },
+  "files": ["bin", "lib"],
   "scripts": {
+    "prepare": "tsc --incremental false",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

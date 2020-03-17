@@ -1,5 +1,5 @@
 {
-  "name": "ken-cli",
+  "name": "cli-ken",
   "version": "1.0.0",
   "description": "My cli",
   "main": "bin/main.js",

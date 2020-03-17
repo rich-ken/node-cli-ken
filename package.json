@@ -10,13 +10,14 @@
   },
   "devDependencies": {
     "@ken0x0a/babel": "1.0.4",
-    "@ken0x0a/configs": "2.5.56",
     "@ken0x0a/commit-config": "1.1.13",
+    "@ken0x0a/configs": "2.5.56",
     "@ken0x0a/eslint-config": "7.7.7",
     "@ken0x0a/prettier-config": "1.2.3",
     "@ken0x0a/tsconfig": "1.6.4",
     "@ken0x0a/tslint-config": "1.5.5",
     "@ken0x0a/types": "1.0.3",
+    "@types/minimist": "^1.2.0",
     "@types/node": "^13.9.1",
     "centralenv": "1.0.6",
     "dotenv": "8.2.0",
@@ -35,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/ken0x0a/node-cli-ken/issues"
   },
-  "homepage": "https://github.com/ken0x0a/node-cli-ken#readme"
+  "homepage": "https://github.com/ken0x0a/node-cli-ken#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }

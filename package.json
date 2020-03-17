@@ -1,0 +1,22 @@
+{
+  "name": "ken-cli",
+  "version": "1.0.0",
+  "description": "My cli",
+  "main": "bin/main.js",
+  "author": "Ken <2770219+ken0x0a@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ken0x0a/node-cli-ken.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/ken0x0a/node-cli-ken/issues"
+  },
+  "homepage": "https://github.com/ken0x0a/node-cli-ken#readme"
+}

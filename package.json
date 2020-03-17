@@ -33,15 +33,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ken0x0a/node-cli-ken.git"
+    "url": "git+https://github.com/rich-ken/node-cli-ken.git"
   },
   "keywords": [
     "cli"
   ],
   "bugs": {
-    "url": "https://github.com/ken0x0a/node-cli-ken/issues"
+    "url": "https://github.com/rich-ken/node-cli-ken/issues"
   },
-  "homepage": "https://github.com/ken0x0a/node-cli-ken#readme",
+  "homepage": "https://github.com/rich-ken/node-cli-ken#readme",
   "dependencies": {
     "minimist": "^1.2.5"
   }

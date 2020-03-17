@@ -8,6 +8,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "@ken0x0a/babel": "1.0.4",
+    "@ken0x0a/configs": "2.5.56",
+    "@ken0x0a/commit-config": "1.1.13",
+    "@ken0x0a/eslint-config": "7.7.7",
+    "@ken0x0a/prettier-config": "1.2.3",
+    "@ken0x0a/tsconfig": "1.6.4",
+    "@ken0x0a/tslint-config": "1.5.5",
+    "@ken0x0a/types": "1.0.3",
+    "@types/node": "^13.9.1",
+    "centralenv": "1.0.6",
+    "dotenv": "8.2.0",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
+    "tslib": "1.11.1",
+    "typescript": "3.8.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ken0x0a/node-cli-ken.git"

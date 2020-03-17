@@ -1,0 +1,7 @@
+{
+  "extends": "@ken0x0a/tsconfig/commonjs",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib"
+  }
+}

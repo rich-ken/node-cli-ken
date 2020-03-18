@@ -1,6 +1,6 @@
 {
   "name": "cli-ken",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "My cli",
   "main": "bin/main.js",
   "author": "Ken <2770219+ken0x0a@users.noreply.github.com>",
@@ -10,14 +10,17 @@
   },
   "files": ["bin", "lib"],
   "scripts": {
-    "prepare": "tsc --incremental false",
+    "prepublish": "tsc --incremental false",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "tslib": "1.11.1"
   },
   "devDependencies": {
     "@ken0x0a/configs": "2.5.56",
     "@types/minimist": "^1.2.0",
     "@types/node": "^13.9.1",
-    "tslib": "1.11.1",
     "typescript": "3.8.3"
   },
   "repository": {
@@ -30,8 +33,5 @@
   "bugs": {
     "url": "https://github.com/rich-ken/node-cli-ken/issues"
   },
-  "homepage": "https://github.com/rich-ken/node-cli-ken#readme",
-  "dependencies": {
-    "minimist": "^1.2.5"
-  }
+  "homepage": "https://github.com/rich-ken/node-cli-ken#readme"
 }
